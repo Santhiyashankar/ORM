@@ -19,6 +19,9 @@ Enter the code for admin.py and models.py
 
 ### STEP 4:
 Execute Django admin and create 10 Football players
+
+## PROGRAM
+
 ```
 admin.py
 from django.contrib import admin
@@ -38,9 +41,6 @@ class footballplayerAdmin(admin.ModelAdmin):
      list_display=('noofplayers','nameoftheplayer','age','noofteams','noofgoals')
 
 ```
-## PROGRAM
-
-Include your code here
 
 ## OUTPUT
 
